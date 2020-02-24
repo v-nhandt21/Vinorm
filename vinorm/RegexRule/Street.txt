@@ -1,0 +1,1 @@
+(?i)\b(đường|số|số nhà|nhà|địa chỉ|tọa lạc|xã|thôn|ấp|khu phố|căn hộ|cư xá|Đ\/c)[\s:]\s?[^\s]*\d[^\s]*(\b|$)
