@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name='vinorm',
-    version='2.0.0',    
+    version='2.0.7',    
     description='Python package for text normalization, use for frontend of Text-to-speech Reseach',
     long_description=long_description,
     long_description_content_type="text/markdown",
