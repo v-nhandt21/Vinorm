@@ -18,12 +18,12 @@ TTSnorm(text, punc = False, unknown = True, lower = True, rule = False )
 
 From version 2.0, do not replace unknown words, skip them for espeak handle in phonetization step
 - This version does not parse case: "Tổ chức WTO"
-WTO do not in dictionary -> unknow -> keep origin, do not spell as in version 1.0, this aim to use with espeak, let espeak handle, but the drawback is the output of espeak for this case is "ve1kɛɜpte1ɔ7", it does not split each syllable.
+WTO do not in dictionary -> unknown -> keep origin, do not spell as in version 1.0, this aim to use with espeak, let espeak handle, but the drawback is the output of espeak for this case is "ve1kɛɜpte1ɔ7", it does not split each syllable.
 - For new entity, need to update in the dictionary
 
 For update lastest version access: https://github.com/NoahDrisort/vinorm
 
-For version 1.0: spell words that is unknow by each character, check previous commit
+For version 1.0: spell words that is unknown by each character, check previous commit
 
 For C++ version: https://github.com/NoahDrisort/vinorm_cpp_version
 
