@@ -10,7 +10,7 @@ def TTSnorm(text, punc = False, unknown = True, lower = True, rule = False ):
         fw.write(text)
 
     myenv = os.environ.copy()
-    myenv['LD_LIBRARY_PATH'] = A+'/lib'
+    myenv['LD_LIBRARY_PATH'] = '/opt/homebrew/opt/icu4c/lib'
 
     E=A+"/main"
     Command = [E]
@@ -33,6 +33,5 @@ def TTSnorm(text, punc = False, unknown = True, lower = True, rule = False ):
         if s=="":
             continue
         TEXT+=s+". "
-
 
     return TEXT
