@@ -1,6 +1,10 @@
+Install the International Components for Unicode
+```
+brew instalal icu4c
+```
 Install ViNorm package
 ```
-pip install vinorm
+pip install vinorm_mac
 ```
 Using in python script
 ```python
