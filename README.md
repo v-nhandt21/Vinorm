@@ -1,8 +1,8 @@
-Install ViNorm package
+### Install ViNorm package
 ```
 pip install vinorm
 ```
-Using in python script
+### Using in python script
 ```python
 from vinorm import TTSnorm
 S=TTSnorm("Hàm này được phát triển từ 8/2019. Có phải tháng 12/2020 đã có vaccine phòng ngừa Covid-19 xmz ?")
@@ -24,6 +24,8 @@ WTO do not in dictionary -> unknown -> keep origin, do not spell as in version 1
 For update lastest version access: https://github.com/NoahDrisort/vinorm
 
 For version 1.0: spell words that is unknown by each character, check previous commit
+
+For mac version: https://github.com/v-nhandt21/Vinorm/tree/vinorm_mac 
 
 For C++ version: https://github.com/NoahDrisort/vinorm_cpp_version
 
