@@ -11,7 +11,7 @@ setup(
     url='https://github.com/v-nhandt21/Vinorm/tree/vinorm_mac',
     author='Flower_On_Stone',
     author_email='thuanbn03@gmail.com',
-    license='Flower_On_Stone',
+    license='AILAB',
     packages=['vinorm_mac'],
     include_package_data=True,
     install_requires=[],

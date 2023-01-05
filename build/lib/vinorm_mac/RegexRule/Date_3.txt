@@ -1,0 +1,1 @@
+(?i)\b(ngày|sáng|trưa|chiều|tối|đêm|hôm|nay|hai|ba|tư|năm|sáu|bảy|nhật|qua|lúc|từ|đến)\s+[0-3]?[0-9]\s?[\/.-]\s?[01]?\d\b
