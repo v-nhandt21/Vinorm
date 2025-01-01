@@ -6,7 +6,7 @@ def TTSnorm(text, punc = False, unknown = True, lower = True, rule = False ):
 
     #print(A)
     I=A+"/input.txt"
-    with open(I,"w+") as fw:
+    with open(I, mode="w+", encoding="utf-8") as fw:
         fw.write(text)
 
     myenv = os.environ.copy()
@@ -25,7 +25,7 @@ def TTSnorm(text, punc = False, unknown = True, lower = True, rule = False ):
     subprocess.check_call(Command, env=myenv, cwd=A)
     
     O=A+"/output.txt"
-    with open(O,"r") as fr:
+    with open(O, mode="r", encoding="utf-8") as fr:
         text=fr.read()
     TEXT=""
     S=text.split("#line#")
